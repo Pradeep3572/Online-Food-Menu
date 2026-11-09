@@ -1,0 +1,39 @@
+.menu{
+    text-align: center;
+}
+.menu .heading1
+{
+    color: rgb(153, 18, 18);
+    font-size: 38px;
+    font-weight: 900;
+    margin:16px 0px 
+}
+.heading2
+{
+    font-weight: 600;
+    font-size: 28px;
+    color: rgb(90, 86, 86);
+}
+.options 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:55px
+}
+.one
+{
+    font-size: 22px;
+    width: 70px;
+    color: rgb(90, 84, 84);
+    border: 1px solid ;
+    padding: 10px ;
+    border-radius: 30px;
+    transition:  background-color 0.6s,color 0.2s;
+    box-shadow: inset 0px -2px 2px gray;
+}
+.one:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(153, 18, 18);
+}

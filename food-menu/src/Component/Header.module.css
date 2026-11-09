@@ -18,6 +18,7 @@
 .header .div1:hover
 {
     transform: scale(1.012);
+    cursor: pointer;
    
 }
 .header .div1 .cor
