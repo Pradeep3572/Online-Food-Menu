@@ -1,0 +1,38 @@
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(153, 18, 18);
+    color: white;
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr 1fr;
+    box-sizing: border-box;
+    align-items: center;
+}
+.header .div1
+{
+    font-size: 48px;
+    padding-left: 80px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+.header .div1:hover
+{
+    transform: scale(1.012);
+   
+}
+.header .div1 .cor
+{
+    color: rgb(246, 222, 90);
+}
+.header .div2,.header .div3
+{
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+ .div4 .imgg
+{
+    padding-top: 18px;
+    width: 50px;
+    height: 30px;
+}
