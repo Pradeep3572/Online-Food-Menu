@@ -2,7 +2,6 @@
 .food-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 350px);
-    justify-content: center;
     gap: 20px;
 
     padding: 25px;

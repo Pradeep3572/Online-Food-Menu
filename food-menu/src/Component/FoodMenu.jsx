@@ -1,5 +1,5 @@
 import style from "./FoodMenu.module.css" 
-function Menu()
+function Menu({setCategory})
 {
     return(
         <>
@@ -7,11 +7,11 @@ function Menu()
             <p className={style.heading1}>Our Menu</p>
             <p className={style.heading2}>Delicious food made with Love </p>
             <div className={style.options}>
-                <div className={style.one}>All</div>
-                <div className={style.one}>Burger</div>
-                <div className={style.one}>Pizza</div>
-                <div className={style.one}>Snacks</div>
-                <div className={style.one}>Drinks</div>
+                <button onClick={()=>setCategory('All')} className={style.one}>All</button>
+                 <button onClick={()=>setCategory('Burger')} className={style.one}>Burger</button>
+                 <button onClick={()=>setCategory('Pizza')} className={style.one}>Pizza</button>
+                 <button onClick={()=>setCategory('Snacks')} className={style.one}>Snacks</button>
+                 <button onClick={()=>setCategory('Drinks')} className={style.one}>Drinks</button>
             </div>
         </div>
         </>
