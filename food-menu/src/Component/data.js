@@ -19,7 +19,7 @@ const foods = [
     {
         id: 3,
         img: "images/pasta.png",
-        category: "Pasta",
+        category: "Others",
         name: "Creamy White Sauce Pasta",
         content: "Creamy white sauce pasta with herbs and delicious seasoning.",
         price: 180
@@ -27,7 +27,7 @@ const foods = [
     {
         id: 4,
         img: "images/sandwich.png",
-        category: "Sandwich",
+        category: "Others",
         name: "Grilled Veg Sandwich",
         content: "Crispy grilled sandwich stuffed with fresh vegetables.",
         price: 120
@@ -43,7 +43,7 @@ const foods = [
     {
         id: 6,
         img: "images/biriyani.png",
-        category: "Rice",
+        category: "Others",
         name: "Veg Biryani",
         content: "Aromatic basmati rice cooked with vegetables and spices.",
         price: 200

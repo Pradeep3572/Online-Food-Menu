@@ -15,7 +15,7 @@ function App() {
   return(
     <>
     <Header/>
-  <Menu setCategory={setCategory} />    
+  <Menu category={category} setCategory={setCategory} />    
   <div className="food-container">
                 {filteredFoods.map((food) => (
                     <Card
